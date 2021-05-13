@@ -28,22 +28,22 @@ Ao decorrer deste projeto irei demonstrar com prints e explicações como funcio
 <p>    Como a ideia do projeto é criar um script python que faça o dowload de uma musica do youtube precisamos primeiramente importar a biblioteca que faça essa etapa. <br>
 <code> from pytube import YouTube </code>
 <br>
-Obs: Na primeira vez que formos utilizar uma biblioteca diferente, é necessario fazer a instalação da mesma, para isso é apenas necessário abrir o terminal e digitar
+Obs: Na primeira vez que formos utilizar uma biblioteca diferente, é necessario fazer a instalação da mesma, para isso é apenas necessário abrir o terminal e digitar:
 ~~~python
 pip install pytube 
 ~~~ <br>
     Agora só precisamos fazer o dowload da musica que queremos, para fazer o dowload pelo python
-vamos utilizar os seguintes comandos <br>
+vamos utilizar os seguintes comandos: <br>
 <img src='/Imagens/exemplo_pytube.png'>
 <br>
-onde <b>Youtube(link)</b> é para conectar ao vídeo, sendo link a url do youtube, exemplo: <i> link = 'https://www.youtube.com/exemplo'</i>
+onde <b>Youtube(link)</b> é para conectar ao vídeo, sendo link a url do youtube, exemplo: <i> link = 'https://www.youtube.com/exemplo'.</i>
 <br>
     E é na variavel <code>ys</code> que vamos realizar o download, onde passamos <b>.filter(only_audio=True)</b>
 para especificar que desejamos baixar somente o áudio, mesmo o arquivo baixado sendo <i>.mp4</i>. <br>
-</b>   Finalizando o código passamos <b>.download(path)</b> que consiste no caminho onde o vídeo será baixado, sendo <b> path </b> uma variavel que armazena a url do arquivo, exemplo: <i> path = 'C:\Exemplo' </i>
+</b>   Finalizando o código passamos <b>.download(path)</b> que consiste no caminho onde o vídeo será baixado, sendo <b> path </b> uma variavel que armazena a url do arquivo, exemplo: <i> path = 'C:\Exemplo'. </i>
 <br>
     Se passarmos os links tanto do vídeo quanto do caminho e executarmos esse trecho, receberemos o seguinte 
 resultado:
-<br><img src='/Imagens/exemplo_musica.mp4.png' width='40px' height='40px'><br>
+<br><img src='/Imagens/exemplo_musica.mp4.png' width='75px' height='75px'><br>
     Percebam que o arquivo esta em formato de vídeo, caso executem o vídeo, ele tera a tela preta e estará apenas
 reproduzindo o áudio da música.
