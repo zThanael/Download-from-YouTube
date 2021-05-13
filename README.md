@@ -8,3 +8,23 @@
 Enquanto estava em meus estudos em python verifiquei que era possivel fazer o dowload de videos do youtube atraves do python, foi ai que me veio a ideia de fazer esse script para que eu possar fazer o dowload das músicas que gosto do youtube, sem precisar passar pelos diversos sites cheio de anuncios para baixa-la <br>
 Ao decorrer deste projeto irei demonstrar com prints e explicações como funciona exatamente o código. </b>
 </li>
+
+<h2>Objetivo</h2>
+<li> O projeto tem como objetivo demonstrar a utilização do Python para realizar uma interface gráfica simples que realize o dowload de videos do Youtube e converte-los em arquivos.mp3, realizando resumidamente o processo de baixar músicas do youtube</li>
+
+<h2>Bibliotecas Utilizadas </h2>
+<blockquote>
+    <ul> 
+        <li> OS </li> 
+        <li> Moviepy.Editor </li>
+        <li> Pytube </li> 
+        <li> PySimpleGUI </li> 
+        <li> re </li> 
+    </ul> 
+</blockquote>
+
+<h2> Projeto </h2>
+Como a ideia do projeto é criar um script python que faça o dowload de uma musica do youtube precisamos primeiramente importar a biblioteca que faça essa etapa.
+```python
+from pytube import YouTube
+```
