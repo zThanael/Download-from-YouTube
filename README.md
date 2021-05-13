@@ -25,6 +25,6 @@ Ao decorrer deste projeto irei demonstrar com prints e explicações como funcio
 
 <h2> Projeto </h2>
 Como a ideia do projeto é criar um script python que faça o dowload de uma musica do youtube precisamos primeiramente importar a biblioteca que faça essa etapa.
-```python
+<code>
 from pytube import YouTube
-```
+</code>
