@@ -23,8 +23,8 @@ Ao decorrer deste projeto irei demonstrar com prints e explicações como funcio
     </ul> 
 </blockquote>
 
-<h2> Projeto </h2>
-Como a ideia do projeto é criar um script python que faça o dowload de uma musica do youtube precisamos primeiramente importar a biblioteca que faça essa etapa.
+<h2> Explicação do Projeto </h2>
+<p>Como a ideia do projeto é criar um script python que faça o dowload de uma musica do youtube precisamos primeiramente importar a biblioteca que faça essa etapa. <br>
 <code>
 from pytube import YouTube
 </code>
