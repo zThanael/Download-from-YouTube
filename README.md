@@ -25,15 +25,18 @@ Ao decorrer deste projeto irei demonstrar com prints e explicações como funcio
 
 <h2> Explicação do Projeto </h2>
 <p>Como a ideia do projeto é criar um script python que faça o dowload de uma musica do youtube precisamos primeiramente importar a biblioteca que faça essa etapa. <br>
-<code>
-from pytube import YouTube
-</code>
-Obs: Na primeira vez que formos utilizar uma biblioteca diferente, é necessario fazer a instalação da mesma, para isso é apenas necessário abrir o terminal e digitas o seguinte comando. 
+<code> from pytube import YouTube </code>
+<br>
+Obs: Na primeira vez que formos utilizar uma biblioteca diferente, é necessario fazer a instalação da mesma, para isso é apenas necessário abrir o terminal e digitar
 <code> pip install pytube </code> <br>
 Agora só precisamos fazer o dowload da musica que queremos, para fazer o dowload pelo python vamos utilizar os seguintes comandos <br>
 <img src='/Imagens/exemplo_pytube.png'>
 <br>
-onde Youtube(link) é para conectar ao video, sendo link a url do youtube, exemplo:'https://www.youtube.com/watch?v=KJSasKgmCa0&ab_channel=%40ViniciusVPA%40ViniciusVPA'
+onde <b>Youtube(link)</b> é para conectar ao video, sendo link a url do youtube, exemplo: link = 'https://www.youtube.com/exemplo'
 <br>
-E é na variavel <code> ys </code> que vamos realizar o dowload, onde passamos <b>.filter(only_audio=True)</b> para especificar que desejamos baixar somente o audio, mesmo o arquivo baixado sendo mp4. <br>
-</b> E por ultimo passamos o caminho onde o video será baixado, sendo <b> path </b> uma variavel que armazena a url do arquivo, exemplo de url: C:\Exemplo
+E é na variavel <code>ys</code> que vamos realizar o dowload, onde passamos <b>.filter(only_audio=True)</b> para especificar que desejamos baixar somente o audio, mesmo o arquivo baixado sendo mp4. <br>
+</b> E por ultimo passamos o caminho onde o video será baixado, sendo <b> path </b> uma variavel que armazena a url do arquivo, exemplo: path = 'C:\Exemplo'
+<br>
+Se passarmos os links tanto do video quanto do caminho e executarmos esse trecho, receberemos o seguinte resultado:
+<img src='/Imagens/exemplo_musica.mp4.png'>
+Percebam que o arquivo esta em formato de video, caso executem o video, ele tera a tela preta e estará apenas reproduzindo o audio da música.
