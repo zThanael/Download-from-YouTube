@@ -1,5 +1,3 @@
-from tkinter.constants import CENTER
-from typing import Text
 from PySimpleGUI import PySimpleGUI as sg
 from pytube import YouTube
 import moviepy.editor as mp
