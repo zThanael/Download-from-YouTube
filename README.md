@@ -30,5 +30,10 @@ from pytube import YouTube
 </code>
 Obs: Na primeira vez que formos utilizar uma biblioteca diferente, é necessario fazer a instalação da mesma, para isso é apenas necessário abrir o terminal e digitas o seguinte comando. 
 <code> pip install pytube </code> <br>
-Agora só precisamos fazer o dowload da musica que queremos, para fazer o dowload pelo python vamos utilizar os seguintes comandos
+Agora só precisamos fazer o dowload da musica que queremos, para fazer o dowload pelo python vamos utilizar os seguintes comandos <br>
 <img src='/Imagens/exemplo_pytube.png'>
+<br>
+onde Youtube(link) é para conectar ao video, sendo link a url do youtube, exemplo:'https://www.youtube.com/watch?v=KJSasKgmCa0&ab_channel=%40ViniciusVPA%40ViniciusVPA'
+<br>
+E é na variavel <code> ys </code> que vamos realizar o dowload, onde passamos <b>.filter(only_audio=True)</b> para especificar que desejamos baixar somente o audio, mesmo o arquivo baixado sendo mp4. <br>
+</b> E por ultimo passamos o caminho onde o video será baixado, sendo <b> path </b> uma variavel que armazena a url do arquivo, exemplo de url: C:\Exemplo
