@@ -31,4 +31,4 @@ from pytube import YouTube
 Obs: Na primeira vez que formos utilizar uma biblioteca diferente, é necessario fazer a instalação da mesma, para isso é apenas necessário abrir o terminal e digitas o seguinte comando. 
 <code> pip install pytube </code> <br>
 Agora só precisamos fazer o dowload da musica que queremos, para fazer o dowload pelo python vamos utilizar os seguintes comandos
-<img src='exemplo_pytube.png'>
+<img src='imagens/exemplo_pytube.png'>
