@@ -34,7 +34,7 @@ pip install pytube
 ~~~ <br>
     Agora só precisamos fazer o dowload da musica que queremos, para fazer o dowload pelo python
 vamos utilizar os seguintes comandos: <br>
-<img src='/Imagens/exemplo_pytube.png'>
+<img src='/Imagens/exemplo_pytube.png' align='center'>
 <br>
 onde <b>Youtube(link)</b> é para conectar ao vídeo, sendo link a url do youtube, exemplo: <i> link = 'https://www.youtube.com/exemplo'.</i>
 <br>
@@ -44,6 +44,6 @@ para especificar que desejamos baixar somente o áudio, mesmo o arquivo baixado 
 <br>
     Se passarmos os links tanto do vídeo quanto do caminho e executarmos esse trecho, receberemos o seguinte 
 resultado:
-<br><img src='/Imagens/exemplo_musica.mp4.png' width='75px' height='75px'><br>
+<br><img src='/Imagens/exemplo_musica.mp4.png' width='80px' height='80px' align='center'><br>
     Percebam que o arquivo esta em formato de vídeo, caso executem o vídeo, ele terá a tela preta e estará apenas
 reproduzindo o áudio da música.
