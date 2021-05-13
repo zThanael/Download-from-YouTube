@@ -9,7 +9,6 @@ def dowloadMP3(dict):
     path = dict['path']
     yt = YouTube(link)
     #Fazer o dowload
-    ys = yt.streams.filter
     ys = yt.streams.filter(only_audio=True).first().download(path)
     #Converter o video(mp4) para mp3
     for file in os.listdir(path): #percorrer na pasta
