@@ -24,6 +24,7 @@ Ao decorrer deste projeto irei demonstrar com prints e explicações como funcio
 </blockquote>
 
 <h2> Explicação do Projeto </h2>
+<li> <h3> Fazer Dowload do video do YouTube </h3> </li>
 <p>Como a ideia do projeto é criar um script python que faça o dowload de uma musica do youtube precisamos primeiramente importar a biblioteca que faça essa etapa. <br>
 <code> from pytube import YouTube </code>
 <br>
@@ -38,5 +39,5 @@ E é na variavel <code>ys</code> que vamos realizar o dowload, onde passamos <b>
 </b> E por ultimo passamos o caminho onde o video será baixado, sendo <b> path </b> uma variavel que armazena a url do arquivo, exemplo: path = 'C:\Exemplo'
 <br>
 Se passarmos os links tanto do video quanto do caminho e executarmos esse trecho, receberemos o seguinte resultado:
-<img src='/Imagens/exemplo_musica.mp4.png'>
+<br><img src='/Imagens/exemplo_musica.mp4.png'><br>
 Percebam que o arquivo esta em formato de video, caso executem o video, ele tera a tela preta e estará apenas reproduzindo o audio da música.
