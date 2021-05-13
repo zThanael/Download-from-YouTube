@@ -45,5 +45,5 @@ para especificar que desejamos baixar somente o áudio, mesmo o arquivo baixado 
     Se passarmos os links tanto do vídeo quanto do caminho e executarmos esse trecho, receberemos o seguinte 
 resultado:
 <br><img src='/Imagens/exemplo_musica.mp4.png' width='75px' height='75px'><br>
-    Percebam que o arquivo esta em formato de vídeo, caso executem o vídeo, ele tera a tela preta e estará apenas
+    Percebam que o arquivo esta em formato de vídeo, caso executem o vídeo, ele terá a tela preta e estará apenas
 reproduzindo o áudio da música.
