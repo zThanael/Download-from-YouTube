@@ -48,10 +48,10 @@ reproduzindo o áudio da música. </p>
 
 
 <h3><li>  Criando uma interface gráfica  </li></h3>
-<p style="text-indent: 4em;"> Agora que ja possuímos o programa funcionando, podemos fazer uma interface gráfica simples para ficar mais intuitivo de como utilizar o programa, ja que sem a interface gráfica possuimos apenas o codigo atraves do terminal, tendo esta saida. </p>
+<p style="text-indent: 4em;">&nbsp;&nbsp;&nbsp;&nbsp; Agora que ja possuímos o programa funcionando, podemos fazer uma interface gráfica simples para ficar mais intuitivo de como utilizar o programa, ja que sem a interface gráfica possuimos apenas o codigo atraves do terminal, tendo esta saida. </p>
     <img src='Imagens/exemplo_sem_interface.png'>
-<p style="text-indent: 4em;"> Com o objetivo de criar uma interface gráfica para o nosso programa, vamos utilizar a biblioteca <b> PySimpleGUI </b> para criar a interface, mas antes precisamos fazer o download da mesma, utilizando o seguinte comando <code> pip install PySimpleGUI </code>.  </p>
-<p style="text-indent: 4em;">Antes de criarmos a nossa interface precisamos fazer um esboço, pode ser feito até mesmo em um papel, de como queremos que seja a interface, para que tenhamos um modelo de como o programa deverá ser. </p>
+<p style="text-indent: 4em;">&nbsp;&nbsp;&nbsp;&nbsp; Com o objetivo de criar uma interface gráfica para o nosso programa, vamos utilizar a biblioteca <b> PySimpleGUI </b> para criar a interface, mas antes precisamos fazer o download da mesma, utilizando o seguinte comando <code> pip install PySimpleGUI </code>.  </p>
+<p style="text-indent: 4em;">&nbsp;&nbsp;&nbsp;&nbsp;Antes de criarmos a nossa interface precisamos fazer um esboço, pode ser feito até mesmo em um papel, de como queremos que seja a interface, para que tenhamos um modelo de como o programa deverá ser. </p>
 <p style="text-indent: 4em;"> Um exemplo de esboço: </p>
 <img src='Imagens/esboço.png' width='275px'>
 
