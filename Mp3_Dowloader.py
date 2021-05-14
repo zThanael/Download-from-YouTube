@@ -10,7 +10,6 @@ def dowloadMP3(dict):
     yt = YouTube(link)
     #Fazer o dowload
     ys = yt.streams.filter(only_audio=True).first().download(path)
-    
     #Converter o video(mp4) para mp3
     for file in os.listdir(path):                  #For para percorrer dentro da pasta passada anteriormente
         if re.search('mp4', file):                 #If verificando se o arquivo e .MP4                    
@@ -40,5 +39,4 @@ while True:
     if event == 'Baixar':
         dowloadMP3(values)
         sg.popup("Download Completo")
-        
-
+        break
