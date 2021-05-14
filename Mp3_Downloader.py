@@ -4,7 +4,7 @@ import moviepy.editor as mp
 import re
 import os
 
-def dowloadMP3(dict):
+def downloadMP3(dict):
     link = dict['link']
     path = dict['path']
     yt = YouTube(link)
@@ -27,7 +27,7 @@ def janela_cliente():
     [sg.Text('Selecione a pasta:', size=(18,0)), sg.InputText('Default Folder',size = (40,0),key = 'path'), sg.FolderBrowse('Arquivo', size = (7,0))],
     [sg.Button('Baixar', size=(20,0),)]
     ]
-    return sg.Window('Dowloader MP3 Music',layout=layout, finalize=True)
+    return sg.Window('Downloader MP3 Music',layout=layout, finalize=True)
 #criar as janelas
 janela = janela_cliente()
 #ler os eventos
@@ -37,6 +37,6 @@ while True:
     if event == sg.WIN_CLOSED:
         break
     if event == 'Baixar':
-        dowloadMP3(values)
+        downloadMP3(values)
         sg.popup("Download Completo")
         break
