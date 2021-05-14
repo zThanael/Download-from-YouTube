@@ -11,7 +11,7 @@ Ao decorrer deste projeto irei demonstrar com prints e explicações como funcio
 
 
 <h2>Objetivo</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;   <b> O projeto tem como objetivo demonstrar a utilização do Python para realizar uma interface gráfica simples que realize o download de vídeos do Youtube e converte-los em arquivos.mp3, realizando resumidamente o processo de baixar músicas do youtube</b></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;   <b> O projeto tem como objetivo demonstrar a utilização do Python para realizar uma interface gráfica simples que realize o download de vídeos do Youtube e converta-os em arquivos.mp3, realizando resumidamente o processo de baixar músicas do youtube</b></p>
 
 
 <h2>Bibliotecas Utilizadas </h2>
