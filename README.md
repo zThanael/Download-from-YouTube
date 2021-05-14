@@ -1,17 +1,17 @@
 <h1> Fazer Download de músicas através do Python </h1>
 <hr>
 
-<h4 align='right'>Para visualizar o arquivo .py <a href='Mp3_Downloader.py'> Clique aqui </a> </h4>
+<h4 align='right'>Para visualizar o arquivo .py <a href='Mp3_Downloader.py'> Clique aqui. </a> </h4>
 
 
 <h2>Sobre o projeto </h2>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;   Acredito que algum de vocês já encontraram uma música que está somente no youtube e gostou tanto dela que pretende baixa-la para poder ouvir offline, porém procurando por sites para fazer download de músicas, nos deparamos com aqueles inumeros anuncios e diversas etapas que precisam ser feitas para que a gente possa fazer um simples download. </p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;   Enquanto estava em meus estudos em python verifiquei que era possivel fazer o download de vídeos do youtube através do python, foi ai que me veio a ideia de fazer esse script para que eu possar fazer o download das músicas que gosto do youtube, sem precisar passar pelos diversos sites cheio de anuncios para baixa-la <br>
-Ao decorrer deste projeto irei demonstrar com prints e explicações como funciona exatamente o código. </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;   Enquanto estava em meus estudos em python verifiquei que era possivel fazer o download de vídeos do youtube através do python, foi ai que me veio a ideia de fazer esse script para que eu possar fazer o download das músicas que gosto do youtube, sem precisar passar pelos diversos sites cheio de anuncios para baixa-la. <br>
+Ao decorrer deste projeto irei demonstrar com imagens e explicações o funcionamento do código. </p>
 
 
 <h2>Objetivo</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;   <b> O projeto tem como objetivo demonstrar a utilização do Python para realizar uma interface gráfica simples que realize o download de vídeos do Youtube e converta-os em arquivos.mp3, realizando resumidamente o processo de baixar músicas do youtube</b></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;   <b> O projeto tem como objetivo demonstrar a utilização do Python para realizar uma interface gráfica simples que realize o download de vídeos do Youtube e converta-os em arquivos.mp3, realizando resumidamente o processo de baixar músicas do youtube.</b></p>
 
 
 <h2>Bibliotecas Utilizadas </h2>
@@ -25,10 +25,10 @@ Ao decorrer deste projeto irei demonstrar com prints e explicações como funcio
 <h3><li>  Fazer Download do Vídeo do YouTube  </li></h3>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;      Como a ideia do projeto é criar um script python que faça o download de uma música do youtube precisamos primeiramente importar a biblioteca que faça essa etapa.  </p>
-<code> from pytube import YouTube </code>
+<code> from pytube import YouTube </code>.
 
 <i>Obs: Na primeira vez que formos utilizar uma biblioteca diferente, é necessario fazer a instalação da mesma, para isso é apenas necessário abrir o terminal e digitar:</i>
-    <code> pip install pytube </code>
+    <code> pip install pytube </code>.
   
    <p >&nbsp;&nbsp;&nbsp;&nbsp;    Agora só precisamos fazer o download da música que queremos, para fazer o download pelo python vamos utilizar os seguintes comandos:  </p>
 <img src='Imagens/exemplo_pytube.png' align='center'>
@@ -70,9 +70,9 @@ Exemplo da tela: </p>
     <img src='Imagens/exemplo_select.png'>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;  Essa pequena alteração fará com que o a tela fique desde jeito: </p>
     <img src='Imagens/exemplo_tela_v2.png'>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;  Ao cliquar em 'Arquivo' irá abrir uma janela para que você possa selecionar a pasta na qual deseja que seja feito o download </p>  
+<p>&nbsp;&nbsp;&nbsp;&nbsp;  Ao cliquar em 'Arquivo' irá abrir uma janela para que você possa selecionar a pasta na qual deseja que seja feito o download. </p>  
 <p>&nbsp;&nbsp;&nbsp;&nbsp;  Com a parte visual da tela já concluida precisamos fazer com que o download seja feito ao cliquar em 'Baixar', para isso precisamos fazer com que o código fique sempre lendo o que está na parte visual, para isso iremos utilizar um laço de repetição infinito, o <code> While True: </code> e criaremos algumas estruturas de condições. Ficando com o código assim: </p>
     <img src='Imagens/exemplo_while.png'>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;  Com isso concluímos o nosso código, resultando em um programa com interface gráfica que realize o download de uma música do youtube. </p> 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;  Exemplo do programa em funcionamento </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;  Exemplo do programa em funcionamento: </p>
     <img src="Imagens/amostra.gif">
