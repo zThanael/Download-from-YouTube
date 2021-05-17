@@ -16,36 +16,36 @@ Ao decorrer deste projeto irei demonstrar com imagens e explicações o funciona
 <h3> Python </h3>
 <blockquote>
     <ul> 
-    <li> Laços de Repetição </li>
-    <li> Estruturas de condição </li> 
-    <li> Funções </li> 
-    <li> Interface Gráfica com PySimpleGUI </li>
-    <li> Conversão de mp4 para mp3 </li>
+    <li> Laços de Repetição. </li>
+    <li> Estruturas de condição. </li> 
+    <li> Funções. </li> 
+    <li> Interface Gráfica com PySimpleGUI. </li>
+    <li> Conversão de mp4 para mp3. </li>
     </ul> 
 </blockquote>
 
-<h2>Bibliotecas Utilizadas </h2>
+<h2>Bibliotecas Utilizadas. </h2>
 <blockquote>
     <img src='Imagens/bibliotecas.png'>
 </blockquote>
 
-<h2> Explicação do Código </h2>
-<blockquote> Para entender como funciona o código <a href='Explicação.md'> clique aqui </a> para ver a explicação do código.</blockquote>
+<h2> Explicação do Código. </h2>
+<blockquote> Para entender como funciona o processo de fazer o download de músicas pelo python <a href='Explicação.md'> clique aqui </a> Lembrando que nessa explicação está apenas o processo referente ao <a href='Download Músicas.py'> Download Músicas.py </a>. O arquivo <a href='Downloader Músicas ou Playlist.py'> Downloader Músicas ou Playlist </a> sofre algumas mudanças, alterando principalmente a parte da interface gráfica, e adicionando a função de baixar playlists.
 
-<h2> Imagens do funcionamento do programa </h2>
-    <p align='center'> Imagem da Tela Inicial </p>
+<h2> Imagens do funcionamento do programa. </h2>
+    <p align='center'> Imagem da Tela Inicial. </p>
     <img src='Imagens/Tela_inicial.png' align='center'>
-    <p align='center'> Imagem download de música </p>
+    <p align='center'> Imagem download de música. </p>
     <img src='Imagens/Tela_música.png' align='center'>
-    <p align='center'> Imagem download de Playlist </p>
+    <p align='center'> Imagem download de Playlist. </p>
     <img src='Imagens/Tela_Playlist.png' align='center'>
-    <p align='center'> Imagem Notificação de concluído </p>
+    <p align='center'> Imagem Notificação de concluído. </p>
     <img src='Imagens/Tela_notificação.png' align='center'>
 
 <h2> Sobre mim </h2>  
     <ul> 
-    <li> 🎓 Estudante de <b>Engenharia de Software 3° Périodo - <a href='https://uniao.uniguacu.edu.br/'>Uniguaçu </a></b></li>
-    <li> 💻 Entusiasta por Python </br> </li> 
+    <li> 🎓 Estudante de <b>Engenharia de Software 3° Périodo - <a href='https://uniao.uniguacu.edu.br/'>Uniguaçu. </a></b></li>
+    <li> 💻 Entusiasta por Python. </br> </li> 
     </ul> 
 <h2> Contato </h3>
 <blockquote>    
