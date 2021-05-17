@@ -30,7 +30,7 @@ Ao decorrer deste projeto irei demonstrar com imagens e explicações o funciona
 </blockquote>
 
 <h2> Explicação do Código </h2>
-<blockquote> Para entender como funciona o código <a href='Explicação.md'> clique aqui </a> para ver a explicação do código.
+<blockquote> Para entender como funciona o código <a href='Explicação.md'> clique aqui </a> para ver a explicação do código.</blockquote>
 
 <h2> Imagens do funcionamento do programa </h2>
     <p align='center'> Imagem da Tela Inicial </p>
