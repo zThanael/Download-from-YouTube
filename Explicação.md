@@ -1,6 +1,5 @@
 <h2> Explicação do Código</h2>
 
-
 <h3><li>  Fazer Download do Vídeo do YouTube  </li></h3>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;      Como a ideia do projeto é criar um script python que faça o download de uma música do youtube precisamos primeiramente importar a biblioteca que faça essa etapa.  </p>
@@ -20,6 +19,11 @@
     <p>&nbsp;&nbsp;&nbsp;&nbsp;   Percebam que o arquivo esta em formato de vídeo, caso executem o vídeo, ele terá a tela preta e estará apenas
 reproduzindo o áudio da música. </p>
 
+   <blockquote>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp; Para fazer-mos o download de playlist o método e parecido, ficando deste jeito: </p>
+        <img src='Imagens/Download_Playlist.png'>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<b> Obs: </b> Aqui teremos que importar outra parte da biblioteca utilizando o seguinte comando  <br> <code> from pytube import Playlist </code> no inicio do código.</p>
+   </blockquote>
 
 <h3><li>  Converter o arquivo MP4 para MP3  </li></h3>
  <p>&nbsp;&nbsp;&nbsp;&nbsp;   Com o arquivo ja baixado, precisamos agora converte-lo de <b>.MP4 </b> para <b> .MP3 </b>, para isso vamos utilizar as bibliotecas <b> os , re </b> e <b>moviepy.editor </b> Lembrando que antes de usar o <i>moviepy.editor </i> teremos de fazer o download da biblioteca primeiro utilizando o comando <code> pip install moviepy </code> no terminal. Feito o download da biblioteca usaremos o seguinte trecho de código: </p>
