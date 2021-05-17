@@ -30,7 +30,7 @@ Ao decorrer deste projeto irei demonstrar com imagens e explicações o funciona
 </blockquote>
 
 <h2> Explicação do Código. </h2>
-<blockquote> Para entender como funciona o processo de fazer o download de músicas pelo python <a href='Explicação.md'> clique aqui </a> Lembrando que nessa explicação está apenas o processo referente ao <a href='Download Músicas.py'> Download Músicas.py </a>. O arquivo <a href='Downloader Músicas ou Playlist.py'> Downloader Músicas ou Playlist </a> sofre algumas mudanças, alterando principalmente a parte da interface gráfica, e adicionando a função de baixar playlists.
+<blockquote> Para entender como funciona o processo de fazer o download de músicas pelo python <a href='Explicação.md'> clique aqui </a> Lembrando que nessa explicação está apenas o processo referente ao <a href='Download Músicas.py'> Download Músicas.py </a>. O arquivo <a href='Downloader Músicas ou Playlist.py'> Downloader Músicas ou Playlist </a> sofre algumas mudanças, alterando principalmente a parte da interface gráfica, e adicionando a função de baixar playlists. </blockquote>
 
 <h2> Imagens do funcionamento do programa. </h2>
     <p align='center'> Imagem da Tela Inicial. </p>
