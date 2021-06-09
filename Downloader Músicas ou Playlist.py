@@ -105,4 +105,3 @@ while True:
         download_playlist(values)
         janela3.hide()
         janela1.un_hide()
-
