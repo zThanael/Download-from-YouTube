@@ -31,12 +31,15 @@ Ao decorrer deste projeto irei demonstrar com imagens e explicações o funciona
 
 <h2> Imagens do funcionamento do programa. </h2>
     <p align='center'> Imagem da Tela Inicial. 
+    <br>
     <img src='Imagens/Tela_inicial.png' align='center'>
     </p>
     <p align='center'> Imagem download de música. 
+    <br>
     <img src='Imagens/Tela_música.png' align='center'>
     </p>
     <p align='center'> Imagem Notificação de concluído. 
+    <br>
     <img src='Imagens/Tela_notificação.png' align='center'>
     </p>
 
