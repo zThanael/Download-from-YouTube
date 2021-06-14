@@ -30,12 +30,15 @@ Ao decorrer deste projeto irei demonstrar com imagens e explicações o funciona
 </blockquote>
 
 <h2> Imagens do funcionamento do programa. </h2>
-    <p align='center'> Imagem da Tela Inicial. </p>
+    <p align='center'> Imagem da Tela Inicial. 
     <img src='Imagens/Tela_inicial.png' align='center'>
-    <p align='center'> Imagem download de música. </p>
+    </p>
+    <p align='center'> Imagem download de música. 
     <img src='Imagens/Tela_música.png' align='center'>
-    <p align='center'> Imagem Notificação de concluído. </p>
+    </p>
+    <p align='center'> Imagem Notificação de concluído. 
     <img src='Imagens/Tela_notificação.png' align='center'>
+    </p>
 
 <h2> Sobre mim </h2>  
     <ul> 
