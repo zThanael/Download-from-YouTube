@@ -1,16 +1,16 @@
-<h1> Fazer Download de músicas através do Python </h1>
+<h1> Fazer Download de Músicas, Playlists ou Vídeos diretos do Youtube </h1>
 <hr>
 
-<h4 align='right'>Para visualizar o arquivo .py <a href='Downloader Músicas ou Playlist.py'> Clique aqui. </a> </h4>
+<h4 align='right'>Para visualizar o arquivo .py <a href='Downloader from Youtube.py'> Clique aqui. </a> </h4>
 
 
 <h2>Sobre o projeto </h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;   Acredito que algum de vocês já encontraram uma música que está somente no youtube e gostou tanto dela que pretende baixa-la para poder ouvir offline, porém procurando por sites para fazer download de músicas, nos deparamos com aqueles inumeros anuncios e diversas etapas que precisam ser feitas para que a gente possa fazer um simples download. </p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;   Enquanto estava em meus estudos em python verifiquei que era possivel fazer o download de vídeos do youtube através do python, foi ai que me veio a ideia de fazer esse script para que eu possar fazer o download das músicas que gosto do youtube, sem precisar passar pelos diversos sites cheio de anuncios para baixa-la. <br>
-Ao decorrer deste projeto irei demonstrar com imagens e explicações o funcionamento do código. </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;   Acredito que algum de vocês já encontraram algo que está somente no youtube e gostou tanto, que pretende baixa-lo para poder ouvir ou assistir offline, porém procurando por sites para fazer download de músicas ou vídeos do youtube, nos deparamos com aqueles inúmeros anuncios e diversas etapas que precisam ser feitas para que a gente possa fazer um simples download. </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;   Enquanto estava em meus estudos em python verifiquei que era possivel fazer o download de vídeos do youtube através do python, foi ai que me veio a ideia de fazer esse script para que eu possar fazer o download das músicas que gosto do youtube, sem precisar passar pelos diversos sites cheio de anuncios para baixa-la. </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; Ao decorrer deste projeto irei apresentar o projeto que confeccionei para tornar possível este processo. </p>
 
 <h2>Objetivo</h2>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;   <b> O projeto tem como objetivo demonstrar a utilização do Python para realizar uma interface gráfica simples que realize o download de vídeos do Youtube e converta-os em arquivos.mp3, realizando resumidamente o processo de baixar músicas do youtube.</b></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;   <b> O projeto tem como objetivo demonstrar a utilização do Python para realizar uma interface gráfica simples que realize o download de vídeos do Youtube e converta-os em arquivos.mp3, realizando resumidamente o processo de baixar músicas do youtube. Fazendo com que tenhamos ao final um software capaz de realizar downloads de playlist, músicas ou vídeos disponiveis no youtube.</b></p>
 
 <h2>Conhecimentos Utilizados no Projeto </h3>
 <h3> Python </h3>
