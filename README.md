@@ -34,8 +34,6 @@ Ao decorrer deste projeto irei demonstrar com imagens e explicações o funciona
     <img src='Imagens/Tela_inicial.png' align='center'>
     <p align='center'> Imagem download de música. </p>
     <img src='Imagens/Tela_música.png' align='center'>
-    <p align='center'> Imagem download de Playlist. </p>
-    <img src='Imagens/Tela_Playlist.png' align='center'>
     <p align='center'> Imagem Notificação de concluído. </p>
     <img src='Imagens/Tela_notificação.png' align='center'>
 
