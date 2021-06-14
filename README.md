@@ -29,10 +29,6 @@ Ao decorrer deste projeto irei demonstrar com imagens e explicações o funciona
     <img src='Imagens/bibliotecas.png'>
 </blockquote>
 
-<h2> Explicação do Código para baixar músicas. </h2>
-<blockquote> Para entender como funciona o processo de fazer o download de músicas pelo python <a href='Explicação.md'> clique aqui </a> Lembrando que nessa explicação está apenas o processo referente ao <a href='Download Músicas.py'> Download Músicas.py </a>. O arquivo <a href='Downloader Músicas ou Playlist.py'> Downloader Músicas ou Playlist </a> sofre algumas mudanças, alterando principalmente a parte da interface gráfica, e adicionando a função de baixar playlists. Fazendo com que o código fique mais complexo, caso peçam posso fazer uma explicação somente dele também, explicando como funciona para fazer multiplas telas no PySimpleGUI.
-</blockquote>
-
 <h2> Imagens do funcionamento do programa. </h2>
     <p align='center'> Imagem da Tela Inicial. </p>
     <img src='Imagens/Tela_inicial.png' align='center'>
